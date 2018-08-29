@@ -1,0 +1,21 @@
+{
+    "name": "sendphone/sendphone",
+	"description": "发送短信使用",
+	"type": "project",
+	"license": "MIT",
+    "authors": [
+        {
+            "name": "zhangke",
+            "email": "zhangk@wwwscn.com"
+        }
+    ],
+	"minimum-stability":"dev",
+	"require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "sendphone\\": "src/"
+        }
+    }
+}
